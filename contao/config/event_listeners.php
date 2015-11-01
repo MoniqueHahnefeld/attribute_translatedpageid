@@ -15,7 +15,7 @@
  * @filesource
  */
 
-use MetaModels\Attribute\TranslatedUrl\AttributeTypeFactory;
+use MetaModels\Attribute\TranslatedPageId\AttributeTypeFactory;
 use MetaModels\Attribute\Events\CreateAttributeFactoryEvent;
 use MetaModels\MetaModelsEvents;
 
