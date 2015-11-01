@@ -59,7 +59,7 @@ class TranslatedUrl extends TranslatedReference
      */
     protected function getValueTable()
     {
-        return 'tl_metamodel_translatedurl';
+        return 'tl_metamodel_translatedpageid';
     }
 
     /**
@@ -100,9 +100,9 @@ class TranslatedUrl extends TranslatedReference
         $arrFieldDef['eval']['tl_class'] .= ' wizard inline';
 
         if (!$this->get('trim_title')) {
-            $arrFieldDef['eval']['size']      = 2;
-            $arrFieldDef['eval']['multiple']  = true;
-            $arrFieldDef['eval']['tl_class'] .= ' metamodelsattribute_url';
+            $arrFieldDef['eval']['size']      = 1;
+            $arrFieldDef['eval']['multiple']  = false;
+            $arrFieldDef['eval']['tl_class'] .= ' metamodelsattribute_pageid';
         }
 
         /** @var \Symfony\Component\EventDispatcher\EventDispatcherInterface $dispatcher */
