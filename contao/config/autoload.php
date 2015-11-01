@@ -23,5 +23,5 @@
  */
 TemplateLoader::addFiles(array
 (
-    'mm_attr_translatedurl' => 'system/modules/metamodelsattribute_translatedurl/templates',
+    'mm_attr_translatedpageid' => 'system/modules/metamodelsattribute_translatedpageid/templates',
 ));
