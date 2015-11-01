@@ -12,6 +12,6 @@
  */
 
 $GLOBALS['TL_LANG']['tl_metamodel_attribute']['trim_title']['0']              = 'Titel entfernen';
-$GLOBALS['TL_LANG']['tl_metamodel_attribute']['trim_title']['1']              = 'Wenn ausgewählt wird  nur der Link-Eintrag benutzt.';
-$GLOBALS['TL_LANG']['tl_metamodel_attribute']['typeOptions']['translatedurl'] = 'Übersetzte URL';
+$GLOBALS['TL_LANG']['tl_metamodel_attribute']['trim_title']['1']              = 'Wenn ausgewählt wird nur der Link-Eintrag benutzt.';
+$GLOBALS['TL_LANG']['tl_metamodel_attribute']['typeOptions']['translatedpageid'] = 'Übersetzte Seitenauswahl';
 

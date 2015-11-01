@@ -19,7 +19,7 @@
  * @filesource
  */
 
-namespace MetaModels\Attribute\TranslatedUrl;
+namespace MetaModels\Attribute\TranslatedPageId;
 
 use ContaoCommunityAlliance\DcGeneral\Contao\View\Contao2BackendView\Event\ManipulateWidgetEvent;
 use MetaModels\Attribute\TranslatedReference;
@@ -31,7 +31,7 @@ use MetaModels\DcGeneral\Events\UrlWizardHandler;
  * @package    MetaModels
  * @subpackage AttributeTranslatedUrl
  */
-class TranslatedUrl extends TranslatedReference
+class TranslatedPageId extends TranslatedReference
 {
 
     /**
