@@ -7,7 +7,7 @@
 -- *                                                        *
 -- **********************************************************
 
-CREATE TABLE `tl_metamodel_translatedurl` (
+CREATE TABLE `tl_metamodel_translatedpageid` (
 
   `att_id` int(10) unsigned NOT NULL,
   `item_id` int(10) unsigned NOT NULL,
