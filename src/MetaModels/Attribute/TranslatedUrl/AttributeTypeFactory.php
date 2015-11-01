@@ -8,14 +8,14 @@
  * PHP version 5
  *
  * @package    MetaModels
- * @subpackage AttributeTranslatedUrl
+ * @subpackage AttributeTranslatedPageID
  * @author     Christian Schiffler <c.schiffler@cyberspectrum.de>
  * @copyright  The MetaModels team.
  * @license    LGPL-3+.
  * @filesource
  */
 
-namespace MetaModels\Attribute\TranslatedUrl;
+namespace MetaModels\Attribute\TranslatedPageID;
 
 use MetaModels\Attribute\AbstractAttributeTypeFactory;
 
@@ -30,8 +30,8 @@ class AttributeTypeFactory extends AbstractAttributeTypeFactory
     public function __construct()
     {
         parent::__construct();
-        $this->typeName  = 'translatedurl';
-        $this->typeIcon  = 'system/modules/metamodelsattribute_translatedurl/html/url.png';
-        $this->typeClass = 'MetaModels\Attribute\TranslatedUrl\TranslatedUrl';
+        $this->typeName  = 'translatedpageid';
+        $this->typeIcon  = 'system/modules/metamodelsattribute_translatedurl/html/pageid.png';
+        $this->typeClass = 'MetaModels\Attribute\TranslatedPageID\TranslatedPageID';
     }
 }
